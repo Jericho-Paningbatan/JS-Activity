@@ -1,0 +1,40 @@
+*{
+
+  padding: 0;
+  margin: 0;
+
+}
+
+body{
+
+  background-color: #2d3436;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+
+  display: flex;
+  background-color: #3d3d3d;
+  width: 50%;
+  min-height: 600px;
+  justify-content: center;
+  align-items: center;
+}
+.circle{
+
+  border-radius: 50%;
+  margin: 10px;
+  background-color: aquamarine;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+
+}
+
+.hovercircle{
+
+  transform: scale(1.5);
+  background-color: rgb(92, 8, 95);
+
+}
